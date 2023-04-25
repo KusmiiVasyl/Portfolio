@@ -62,7 +62,7 @@ export const MenuMobile = () => {
           navigation.map((item, index) => {
             return (
                 <li key={index} className='mb-8'>
-                  <Link to={item.href}
+                  <Link to={item.href} onClick={() => setIsOpen(false)}
                         smoth="true" duration={500} offser={-70}
                         className='text-xl cursor-pointer capitalize hover:text-blue-400'>
                     {item.name}

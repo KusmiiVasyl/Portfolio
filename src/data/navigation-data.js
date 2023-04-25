@@ -9,16 +9,16 @@ export const navigation = [
         href: 'about',
     },
     {
+        name: 'skills',
+        href: 'skills',
+    },
+    {
         name: 'portfolio',
         href: 'portfolio',
     },
     {
-        name: 'services',
-        href: 'services',
-    },
-    {
-        name: 'testimonials',
-        href: 'testimonials',
+        name: 'certificates',
+        href: 'certificates',
     },
     {
         name: 'contact',
