@@ -22,7 +22,7 @@ export const CertificateSlider = () => {
           return (
             <SwiperSlide key={index} >
               <div className='flex flex-col lg:flex-row gap-12 lg:gap-32 mb-8 mt-4'>
-                <div className='w-58 h-full lg:w-[428px] lg:h-[328px] mb-0'>
+                <div className='w-58 h-auto lg:w-[428px] lg:h-[328px] mb-0'>
                   <img className='rounded-2xl' src={image} alt="Certificate"/>
                 </div>
                 <div className='flex flex-col max-w-2xl mt-0'>
