@@ -6,6 +6,7 @@ import javaNotebookService from '..//assets/img/projects/JavaNotebookService.PNG
 import homeOrganaizer from '..//assets/img/projects/HomeOrganaizer.PNG'
 import chatMessanger from '..//assets/img/projects/ChatMessanger.PNG'
 import victoryna from '..//assets/img/projects/Viktoryna.PNG'
+import bookLibrary from '..//assets/img/projects/BookLibrary.PNG'
 import snake from '..//assets/img/projects/Snake.png'
 
 
@@ -15,16 +16,16 @@ export const projectsData = [
     image: htmlCSSProjImg,
     name: 'Site',
     category: 'HTML5/CSS3',
-    hrefGit:'https://github.com/KusmiiVasyl/site-1.git',
-    description:'Layout of the site according to the template.'
+    hrefGit: 'https://github.com/KusmiiVasyl/site-1.git',
+    description: 'Layout of the site according to the template.'
   },
   {
     id: '2',
     image: weatherImg,
     name: 'My weather',
     category: 'JavaScript',
-    hrefGit:'https://github.com/KusmiiVasyl/MyWeather.git',
-    description:'A small weather forecast project.\n' +
+    hrefGit: 'https://github.com/KusmiiVasyl/MyWeather.git',
+    description: 'A small weather forecast project.\n' +
       'Used html, bootstrap5, css, javascript, weather API from openweathermap.'
   },
   {
@@ -32,8 +33,8 @@ export const projectsData = [
     image: reactAddressesImg,
     name: 'Addresses',
     category: 'React',
-    hrefGit:'https://github.com/KusmiiVasyl/AddressDataReact.git',
-    description:'Address database project using mockApi,' +
+    hrefGit: 'https://github.com/KusmiiVasyl/AddressDataReact.git',
+    description: 'Address database project using mockApi,' +
       ' address editing/adding/deleting, routing implemented, axios and redux connected.'
   },
   {
@@ -41,8 +42,8 @@ export const projectsData = [
     image: angularCarsImg,
     name: 'Base of cars',
     category: 'Angular',
-    hrefGit:'https://github.com/KusmiiVasyl/CarsBase.git',
-    description:'The car base project, angular material is connected, mockapi is used, the ability to ' +
+    hrefGit: 'https://github.com/KusmiiVasyl/CarsBase.git',
+    description: 'The car base project, angular material is connected, mockapi is used, the ability to ' +
       'add, edit, delete and search in google cars is made possible through the appropriate form.'
   },
   {
@@ -50,8 +51,8 @@ export const projectsData = [
     image: javaNotebookService,
     name: 'Notebook Service',
     category: 'Java/JavaSpring',
-    hrefGit:'https://github.com/KusmiiVasyl/NotebookService.git',
-    description:'Service for the manager who coordinates transportation,' +
+    hrefGit: 'https://github.com/KusmiiVasyl/NotebookService.git',
+    description: 'Service for the manager who coordinates transportation,' +
       ' swagger is connected, all CRUD operations are written, the request' +
       ' for all objects is transferred to pagination.'
   },
@@ -61,8 +62,8 @@ export const projectsData = [
     image: victoryna,
     name: 'Viktoryna',
     category: 'C#',
-    hrefGit:'https://github.com/KusmiiVasyl/Viktoryna.git',
-    description:'Console quiz program. It is possible to register a user and log in for an administrator.' +
+    hrefGit: 'https://github.com/KusmiiVasyl/Viktoryna.git',
+    description: 'Console quiz program. It is possible to register a user and log in for an administrator.' +
       ' The user can choose and take appropriate quizzes, after which he will be added to the leaderboard.' +
       ' Admin can add, edit, delete quizzes, and view all user information.'
   },
@@ -71,16 +72,16 @@ export const projectsData = [
     image: homeOrganaizer,
     name: 'Home Organaizer',
     category: 'C#/WPF',
-    hrefGit:'https://github.com/KusmiiVasyl/Home-Organaizer.git',
-    description:'The program is designed to keep notes on utility payments, and there is also a to-do list.'
+    hrefGit: 'https://github.com/KusmiiVasyl/Home-Organaizer.git',
+    description: 'The program is designed to keep notes on utility payments, and there is also a to-do list.'
   },
   {
     id: '8',
     image: chatMessanger,
     name: 'Chat Messanger',
     category: 'Android/Kotlin',
-    hrefGit:'https://github.com/KusmiiVasyl/MainMessanger.git',
-    description:'The chat project performs user registration and provides' +
+    hrefGit: 'https://github.com/KusmiiVasyl/MainMessanger.git',
+    description: 'The chat project performs user registration and provides' +
       ' the possibility of conducting a chat between users, firebase acts as a backend.'
   },
   {
@@ -88,8 +89,21 @@ export const projectsData = [
     image: snake,
     name: 'Snake',
     category: 'C++',
-    hrefGit:'https://github.com/KusmiiVasyl/Snake.git',
-    description:'Console popular game snake.'
+    hrefGit: 'https://github.com/KusmiiVasyl/Snake.git',
+    description: 'Console popular game snake.'
+  },
+  {
+    id: '10',
+    image: bookLibrary,
+    name: 'Book Library App',
+    category: 'React',
+    hrefGit: 'https://github.com/KusmiiVasyl/Book-Library-Redux-.git',
+    description: 'The possibility of adding books to the list in three ways has been developed: ' +
+      'manually, randomly (from the list of books that are in the program in the json list) and randomly' +
+      ' from the server (a simple server has been created on node.js). You can also delete a book from' +
+      ' the added list of books, mark it as a favorite. Made it possible to filter books by title, author' +
+      ' and favorite. All states are rendered in redux, if an error occurs a message appears in the upper' +
+      ' right window of the screen.'
   }
 ];
 

@@ -1,4 +1,5 @@
 import MyPhoto from "../assets/img/my-foto.jpg"
+import resumeFilePath from '..//assets/img/my-resume.jpg'
 
 
 export const Person = () => {
@@ -20,11 +21,10 @@ export const Person = () => {
             <p className='text-lg text-cyan-200 mb-[22px]'>
               I am a junior full-stack developer
             </p>
-            <button className='btn btn-md bg-cyan-950 hover:bg-cyan-700 md:btn-lg text-cyan-200 transition-all'>
-              Work with me
-            </button>
+            <a className='btn btn-md bg-cyan-950 hover:bg-cyan-700 md:btn-lg text-cyan-200 transition-all'
+               href={resumeFilePath} download='ResumeVasylKusmii.pdf'>Download Resume</a>
           </div>
-          <div className= 'flex mt-8 flex-1 justify-end items-end rounded-lg border-b-4 border-cyan-950/100 '>
+          <div className='flex mt-8 flex-1 justify-end items-end rounded-lg border-b-4 border-cyan-950/100 '>
             <img src={MyPhoto} className="rounded-lg" alt="Photo"/>
           </div>
         </div>
