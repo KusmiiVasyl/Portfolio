@@ -1,5 +1,5 @@
 import MyPhoto from "../assets/img/my-foto.jpg"
-import resumeFilePath from '..//assets/img/my-resume.jpg'
+import resumeFilePath from '..//assets/img/my-resume.pdf'
 
 
 export const Person = () => {

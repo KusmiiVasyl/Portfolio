@@ -1,6 +1,7 @@
 import udemyReact from "..//assets/img/certificates/Udemy.PNG"
 import udemyJava from "..//assets/img/certificates/UdemyJava.PNG"
 import udemySpring from "..//assets/img/certificates/UdemySpring.PNG"
+import udemyCSS from "..//assets/img/certificates/UdemyCSS.PNG"
 import ciscoIT from "..//assets/img/certificates/CiscoITEssentials.PNG"
 import ciscoCPlusPlus from "..//assets/img/certificates/CiscoC++.PNG"
 import ITStepMSSQL from "..//assets/img/certificates/ITStepMSSQL.PNG"
@@ -29,6 +30,10 @@ export const certificates = [
   {
     image: udemySpring,
     name: 'Udemy. Spring for beginner'
+  },
+  {
+    image: udemyCSS,
+    name: 'Udemy. Complete CSS course.'
   },
   {
     image: ciscoIT,
